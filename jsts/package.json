@@ -1,0 +1,12 @@
+{
+  "name": "jsts",
+  "version": "1.2.1",
+  "description": "Copy of JSTS built using npm run build-es6, and with the Angle functions manually added (as they seem to be missing currently)",
+	"main": "index.node.js",
+	"jsnext:main": "index.es.js",
+	"private": true,
+	"author": "Björn Harrtell <bjorn@wololo.org>",
+  "scripts": {
+		"prepublish": "rollup -i index.js -o index.node.js -f cjs -m"
+	}
+}

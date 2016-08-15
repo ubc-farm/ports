@@ -1,0 +1,26 @@
+{
+  "name": "vis-timeline",
+  "version": "4.16.1",
+  "description": "A dynamic, browser-based visualization library. Porting Timeline and nessecary dependencies to ES6 for use through rollup",
+  "homepage": "http://visjs.org/",
+  "license": "(Apache-2.0 OR MIT)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/almende/vis.git"
+  },
+  "dependencies": {
+		"hammerjs": "^2.0.6",
+		"moment": "^2.14.1",
+    "lodash-es": "^4.14.1"
+	},
+  "devDependencies": {
+    "rollup": "0.34.2",
+    "rollup-plugin-node-resolve": "^2.0.0",
+		"rollup-plugin-commonjs": "^3.3.1"
+  },
+  "scripts": {
+    "prepublish": "rollup -c"
+  },
+  "jsnext:main": "index.es.js",
+  "main": "index.iife.js"
+}

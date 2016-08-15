@@ -1,0 +1,15 @@
+{
+	"name": "ubc-farm-jsts",
+	"version": "4.6.0",
+	"description": "Copy of tape built with browserify for testing client-side code",
+	"main": "index.node.js",
+	"private": true,
+	"author": {
+		"name": "James Halliday",
+		"email": "mail@substack.net",
+		"url": "http://substack.net"
+	},
+	"scripts": {
+		"prepublish": "rollup -i index.js -o index.node.js -f cjs -m"
+	}
+}
