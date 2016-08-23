@@ -22,5 +22,12 @@
     "prepublish": "rollup -c"
   },
   "jsnext:main": "index.es.js",
-  "main": "index.iife.js"
+  "main": "index.iife.js",
+  "files": [
+    "dist",
+    "index.es.js",
+    "index.es.js.map",
+    "index.iife.js",
+    "index.iife.js.map"
+  ]
 }
