@@ -8,5 +8,11 @@
 	"author": "Björn Harrtell <bjorn@wololo.org>",
   "scripts": {
 		"prepublish": "rollup -i index.js -o index.node.js -f cjs -m"
-	}
+	},
+	"files": [
+		"index.es.js",
+		"index.es.js.map",
+		"index.node.js",
+		"index.node.js.map"
+	]
 }
