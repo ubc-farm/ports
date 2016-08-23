@@ -1,1 +1,0 @@
-export {geom as default} from '../src/jsts.es6.js';
